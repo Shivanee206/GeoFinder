@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    tools:context="com.example.shivani.geofinder.IntroActivity">
+    
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/googleMap"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="Google Map"
+        android:textAllCaps="false"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#424242"
+        android:elevation="10dp"
+        android:background="@drawable/background"/>
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/polyLine"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="Map PolyLines"
+        android:textAllCaps="false"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#424242"
+        android:elevation="10dp"
+        android:background="@drawable/background"/>
+
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/polyGon"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="Map Polygons"
+        android:textAllCaps="false"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#424242"
+        android:elevation="10dp"
+        android:background="@drawable/background"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/circle"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="Circle Point"
+        android:textAllCaps="false"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#424242"
+        android:elevation="10dp"
+        android:background="@drawable/background"/>
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/myLocation"
+        android:layout_width="200dp"
+        android:layout_height="75dp"
+        android:text="My Location"
+        android:textAllCaps="false"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        android:textColor="#424242"
+        android:elevation="10dp"
+        android:background="@drawable/background"/>
+
+</LinearLayout>
